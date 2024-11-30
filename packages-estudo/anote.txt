@@ -1,0 +1,16 @@
+// Módulos são um conjunto de packages, mesma ideia de soluções do C#. 
+// Criar é só rodar o comando: go mod init <nome do módulo>
+// O go mod é tipo o package.json do node, ele vai criar um arquivo go.mod que vai conter as informações do módulo.
+// Quando se tem o mod, você pode rodar o go build que ele vai criar um executável do seu projet e depois é só escrever o nome do executável que ele vai rodar.
+
+
+// Letra maiúscula: público
+// Letra minúscula: privado
+
+// Funções que são exportadas devem ter um comentário de documentação em cima delas, para que o Go consiga gerar a documentação automaticamente.
+
+// Tenho um comando que não é tão interessante, que é o Go install, ele vai instalar o executável na pasta bin do Go, mas não é muito interessante, porque ele não vai criar um executável com o nome do arquivo, ele vai criar um executável com o nome do módulo.
+
+// Instalando pacotes externos: go get ...
+
+// Tem o comando para limpar o módulo: go mod tidy (ele vai remover os pacotes que não estão sendo utilizados)
