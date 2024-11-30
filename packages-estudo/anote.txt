@@ -14,3 +14,5 @@
 // Instalando pacotes externos: go get ...
 
 // Tem o comando para limpar o módulo: go mod tidy (ele vai remover os pacotes que não estão sendo utilizados)
+
+// Um modulo pode ser direct ou indirect, direct é quando você importa diretamente o pacote, indirect é quando você importa um pacote que importa outro pacote.
