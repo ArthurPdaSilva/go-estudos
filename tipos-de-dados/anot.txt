@@ -1,0 +1,1 @@
+// uint no Golang é um tipo de dado que representa números inteiros sem sinal, ele pode ser de 8, 16, 32 ou 64 bits.
