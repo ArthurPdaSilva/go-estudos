@@ -35,4 +35,25 @@ func main() {
 	slice2 := array2[1:3]
 	array2[1] = "Posição alterada" // slice2 aponta para o array2, então, se eu alterar o array, ele é alterado junto
 	fmt.Println(slice2)
+
+	// Arrays internos
+	fmt.Println("---------------")
+	slice3 := make([]float32, 10, 11)
+	slice3 = append(slice3, 3)
+	slice3 = append(slice3, 5)
+	fmt.Println(slice3)
+	fmt.Println(len(slice3)) // Tamanho retornado
+	fmt.Println(cap(slice3)) // Capacidade | tamanho do array
+
+	//Como ele viu q a capacidade ir ser estourada, ele duplica o tamanho do array interno
+	fmt.Println("---------------")
+
+	slice4 := make([]float32, 5)
+	fmt.Println(slice4)
+	fmt.Println(cap(slice4))
+	fmt.Println(len(slice4))
+	slice4 = append(slice4, 4)
+	fmt.Println(slice4)
+	fmt.Println(cap(slice4))
+	fmt.Println(len(slice4))
 }
