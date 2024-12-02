@@ -13,7 +13,7 @@ func main() {
 
 	// Ponteiro é uma referência de memória
 	var v3 int
-	var ponteiro *int // Ele guada o endereço de memória um tipo int
+	var ponteiro *int // Ele guarda o endereço de memória um tipo int
 
 	v3 = 100
 	ponteiro = &v3 // Salvando a posição de uma variável
