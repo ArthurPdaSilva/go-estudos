@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	// & (endereço de): Obtem o endereço de memória de uma variável.
+	// * (desreferência): Acessa o valor armazenado no endereço de memória.
 	fmt.Println("Ponteiros")
 	v := 10
 	v2 := v
