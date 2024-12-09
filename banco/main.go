@@ -12,6 +12,7 @@ import (
 // go get lib_name
 
 func main() {
+	//Executar o build: .\crud.exe
 	connectionString := "golang:golang@/devbook?charset=utf8&parseTime=True&loc=Local"
 	db, err := sql.Open("mysql", connectionString)
 
